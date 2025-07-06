@@ -32,3 +32,22 @@ h2{
     margin: 20px;
     padding: 10px;
 }
+
+.contact{
+    text-align: center;
+    margin: 20px;
+}
+#Testimonials{
+    text-align: center;
+    margin: 30px;
+}
+#Testimonials p{
+    color: darkviolet;
+}
+footer{
+    text-align: center;
+}
+footer p{
+    color: black;
+    display: block;
+}
