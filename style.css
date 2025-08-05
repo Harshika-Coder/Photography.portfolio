@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .header-content{
     background-color: black;
     color: white;
@@ -67,7 +71,7 @@ form{
     flex-direction: column;
     font-size: large;
 }
-#Testimonials{
+#Testimonial{
     text-align: center;
     margin: 30px;
 }
@@ -85,15 +89,11 @@ footer p{
     color: white;
     display: block;
 }
-.Contacts button{
+.Contacts  button{
     color: white;
     cursor: pointer;
     font-size: 20px;
     border: 5cap solid darkgray;
     background-color: darkorange;
     height: fit-content;
-}
-button:hover{
-    background-color: darkgray;
-    color: black;
 }
