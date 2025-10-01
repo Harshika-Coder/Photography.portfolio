@@ -32,36 +32,39 @@
     <main>
         <section id="Photo Galleries">
             <h2>📸 Photo Galleries</h2>
+            <br />
             <div class="Photo-Library">
-                <button><img
+                <button><img class="gallery-img" data-index="0"
                         src="https://static.vecteezy.com/system/resources/previews/030/258/039/large_2x/beautiful-nature-wallpaper-hd-wallpaper-ai-generated-free-photo.jpg"
                         height=100 alt="Nature"></button>
-                <button><img
+                <button><img class="gallery-img" data-index="1"
                         src="https://images.pexels.com/photos/67517/pexels-photo-67517.jpeg?cs=srgb&dl=road-landscape-mountains-67517.jpg&fm=jpg"
                         height=100 alt="Mountains"></button>
-                <button><img
+                <button><img class="gallery-img" data-index="2"
                         src="https://www.bing.com/th/id/OIP.xK9jyeJ6c04t0oocSoIC0wHaE8?w=218&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
                         height=100 alt="Sunset"></button>
-                <button><img
+                <button><img class="gallery-img" data-index="3"
                         src="https://www.bing.com/th/id/OIP.W_ntYAuKDFTNaWphCXwgRAHaE7?w=245&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
                         height=100 alt="Beach"></button>
-                <button><img
+                <button><img class="gallery-img" data-index="4"
                         src="https://www.bing.com/th/id/OIP.09mK9cdcnjxjKPT4NGLV_AHaLI?w=160&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
                         height=100 alt="Temple"></button>
-                <button><img src="https://i.pinimg.com/736x/80/65/6a/80656a8e10dc361815d479f93057d4db.jpg" height=100
+                <button><img class="gallery-img" data-index="5"
+                        src="https://i.pinimg.com/736x/80/65/6a/80656a8e10dc361815d479f93057d4db.jpg" height=100
                         alt="RadhaKrishna"></button>
-                <button><img
+                <button><img class="gallery-imggallery-img" data-index="6"
                         src="https://hauterrfly.com/wp-content/uploads/2023/12/Untitled-design-2023-12-11T105126.877.jpg"
                         height=100 alt="Couples"></button>
-                <button><img src="https://st1.bollywoodlife.com/wp-content/uploads/2017/12/anushka-virat-wedding-10.jpg"
+                <button><img class="gallery-img" data-index="7"
+                        src="https://st1.bollywoodlife.com/wp-content/uploads/2017/12/anushka-virat-wedding-10.jpg"
                         height=100 alt="Wedding images"></button>
             </div>
         </section>
 
-
-        <br>
+        <br />
         <section id="Search">
             <h2>Search Bar</h2>
+            <br />
             <search>
                 <form action="#">
                     <input type="search" size="40px" placeholder="Search as per your choice"></input>
@@ -74,6 +77,7 @@
 
         <section id="Project showcases">
             <h2>🚀 Project showcases</h2>
+            <br />
             <div class="Projects">
                 <h1>Nature Photography</h1>
                 <p>"In every walk with nature, one receives far more than they seek."</p>
@@ -96,18 +100,20 @@
             </div>
         </section>
 
-        <br>
+        <br />
 
         <section id="Contact Form">
             <h2>📬 Contact form</h2>
+            <br />
             <div class="contact">
                 <input type="text" placeholder="Your Name" required>
-                <br>
+                <br />
                 <input type="text" placeholder="Your Phone Number" required>
-                <br>
+                <br />
                 <input type="email" placeholder="Your Email" required>
-                <br>
+                <br />
                 <textarea rows="3" placeholder="Your Message" required></textarea>
+                <br />
                 <button type="Submit">Send Message</button>
             </div>
         </section>
@@ -116,6 +122,7 @@
 
         <section id="Testimonials">
             <h2>🌟 Testimonials</h2>
+            <br />
             <div class="Review">
                 <p>"Harshika's photography captures the essence of every moment. Her eye for detail and creativity is
                     truly remarkable!"</p>
@@ -145,21 +152,32 @@
             </div>
         </section>
     </main>
+    <br />
 
 
     <footer>
         <input type="text" rows="2" placeholder="Share feedback">
         <button type="submit">Submit</button>
-        <br>
-        <br>
+        <br />
+        <br />
         <address>
-            <strong>Contact Us: 7893214567 </strong>
-            <br>
+            <a href="tel: +7893214567">Contact Us: 7893214567 </a>
+            <br />
             <a href="mailto:harshika.chaurasia_cs22@gla.ac.in">Mail me</a>
         </address>
-        <br>
+        <br />
         <p>&copy; 2025 HARSHIKA's Photography Portfolio • All rights reserved</p>
     </footer>
+
+    <!-- Modal used to display clicked image in full view with navigation controls for immersive gallery experience -->
+    <!-- <div id="imagemodal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" />
+        <div class="navigation">
+            <button id="prev">&#10094; Prev</button>
+            <button id="next">Next &#10095;</button>
+        </div>
+    </div> -->
 
     <script src="logic.js"></script>
 </body>

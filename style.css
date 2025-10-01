@@ -1,27 +1,21 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 .header-content{
-    background-color: black;
-    color: white;
+    background-color: rgb(55, 7, 7);
+    color: rgb(14, 154, 219);
     text-transform: capitalize;
-    margin: 30px;
+    margin: 0 auto;
     padding: 20px;
+    max-width: 1200px;
     height: fit-content;
     text-align: center;
     width: 100%;
 }
-.header-content p{
-    font-size: 20px;
-    font-weight: bold;
-    margin: 10px;
-    color: white;
-    text-align: center;
-}
 p{
     font-size: 1.2em;
-    color: darkred;
+    color: rgb(38, 111, 237);
 }
 nav a{
     margin: 50px;
@@ -52,10 +46,29 @@ form{
     border: 0px solid black;
     height: 150px;
     width: 200px;
-    margin: 20px;
+    margin: 0 auto;
     padding: 10px;
 }
-
+/* .modal{
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+.navigation button{
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: darkorange;
+}
+.close{
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: white;
+    cursor: pointer;
+} */
 .Projects{
     text-align: left;
     margin: 20px;
@@ -89,7 +102,7 @@ footer p{
     color: white;
     display: block;
 }
-.Contacts  button{
+.Contacts button{
     color: white;
     cursor: pointer;
     font-size: 20px;
@@ -97,3 +110,16 @@ footer p{
     background-color: darkorange;
     height: fit-content;
 }
+body.darkmode{
+    background-color: black;
+    color: #E6E6FA;
+}
+body.darkmode .header-content,
+body.darkmode footer,
+body.darkmode .Review,
+body.darkmode .Projects,
+body.darkmode .Contact{
+    background-color: #E6E6FA;
+    color: black;    
+}
+    
